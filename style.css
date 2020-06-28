@@ -71,7 +71,9 @@ label{
     "i la a"
     "i lpr p"
     "i lr r"
-    "i lpark park";
+    "i lpark park"
+    "i lfeat feat";
+    
     box-shadow: 1px 1px 3px #0a1612;
     margin: 20px;
     padding: 20px;
@@ -112,6 +114,7 @@ button:active{background-color: #443729;}
 
 .result>.label{
     font-weight: bold;
+    color:#fff;
 }
 
 .result>.l-addr{
@@ -130,6 +133,12 @@ button:active{background-color: #443729;}
     grid-area: lpark;
 }
 
+.result>.l-feat{
+  grid-area: lfeat;
+}
+
+
+
 .result>.l-immediate{}
 
 .result>.address{
@@ -147,6 +156,15 @@ button:active{background-color: #443729;}
 .result>.parking{
     grid-area: park;
 }
+
+.result>.feat{
+  grid-area: feat;
+}
+
+.result>.feat>.feat-s{
+  border:1px solid #333;
+}
+
 
 .result>.immediate{}
 
