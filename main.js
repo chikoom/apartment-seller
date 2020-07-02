@@ -1,7 +1,7 @@
 
 const source = $('#appartment-template').html();
 Handlebars.registerHelper('formatCurrency', function(value) {
-  return value.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$$1,");
+  return `$${value.toString()}`;
 });
 
 const template = Handlebars.compile(source);

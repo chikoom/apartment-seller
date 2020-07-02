@@ -71,8 +71,9 @@ label{
     "i la a"
     "i lpr p"
     "i lr r"
-    "i lpark park"
-    "i lfeat feat";
+    "i lfeat feat"
+    "i limm imm"
+    "i lpark park";
     
     box-shadow: 1px 1px 3px #0a1612;
     margin: 20px;
@@ -139,7 +140,9 @@ button:active{background-color: #443729;}
 
 
 
-.result>.l-immediate{}
+.result>.l-immediate{
+    grid-area: limm;
+}
 
 .result>.address{
     grid-area: a;
@@ -166,7 +169,9 @@ button:active{background-color: #443729;}
 }
 
 
-.result>.immediate{}
+.result>.immediate{
+    grid-area: imm;
+}
 
 .no-match{
     color: #DD6300;

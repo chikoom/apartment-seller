@@ -50,11 +50,7 @@
           <label class="label l-rooms">Rooms</label>
           <div class="rooms">{{rooms}}</div>
           
-          {{#if immediate}}
-            <label class="label l-immed">Immediate</label>
-            <div class="immediate">{{contactDetails.name}}</div>
-            <div class="immediate">{{contactDetails.email}}</div>
-          {{/if}}
+          
 
           {{#if parking}}
             <label class="label l-park">Parking</label>
@@ -69,6 +65,11 @@
                 <span class="feat-s">{{this}} </span>
               {{/each}}
             </div>
+          {{/if}}
+
+          {{#if immediate}}
+            <label class="label l-immed">Contact</label>
+            <div class="immediate">{{contactDetails.name}} | {{contactDetails.email}}</div>
           {{/if}}
        
         </div>
